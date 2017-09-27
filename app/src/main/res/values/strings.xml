@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Celulares</string>
+    <string name="registroCelular">Registrar Celular</string>
+    <string name="marca">Marca:</string>
+    <string name="capacidad">Capacidad:</string>
+    <string name="color">Color:</string>
+    <string name="precio">Precio:</string>
+    <string name="crear">Crear</string>
+    <string name="limpiar">Limpiar</string>
+    <string name="numero">#</string>
+    <string name="promedio">Precio Promedio Nokia</string>
 </resources>
