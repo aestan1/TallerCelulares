@@ -8,12 +8,14 @@ public class Celular {
     private String marca;
     private String capacidad;
     private String color;
+    private String so;
     private String precio;
 
-    public Celular(String marca, String capacidad, String color, String precio) {
+    public Celular(String marca, String capacidad, String color, String so, String precio) {
         this.marca = marca;
         this.capacidad = capacidad;
         this.color = color;
+        this.so = so;
         this.precio = precio;
     }
 
@@ -39,6 +41,14 @@ public class Celular {
 
     public void setColor(String color) {
         this.color = color;
+    }
+
+    public String getSo() {
+        return so;
+    }
+
+    public void setSo(String so) {
+        this.so = so;
     }
 
     public String getPrecio() {

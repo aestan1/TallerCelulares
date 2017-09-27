@@ -29,4 +29,11 @@
     <string name="reporte4">REPORTE 4</string>
     <string name="reporte5">REPORTE 5</string>
     <string name="cantApple">Cantidad de equipos Apple negro</string>
+    <string name="so">Sist Operativo</string>
+    <string name="so2">So:</string>
+    <string name="mensaje_error_1">Debe introducir la marca</string>
+    <string name="mensaje_error_2">Debe introducir la capacidad</string>
+    <string name="mensaje_error_3">Debe introducir el color</string>
+    <string name="mensaje_error_4">Debe introducir el sistema operativo</string>
+    <string name="mensaje_error_5">Debe introducir el precio</string>
 </resources>

@@ -45,7 +45,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:orientation="horizontal"
-        android:layout_weight="0.33">
+        android:layout_weight="0.52">
 
         <TextView
             android:id="@+id/textView2"
@@ -90,7 +90,30 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="71dp"
+        android:layout_height="77dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/so"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/txtSo"
+            android:layout_width="144dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.30"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
         android:orientation="horizontal">
 
         <TextView
@@ -129,6 +152,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:onClick="limpiar"
             android:text="@string/limpiar" />
     </LinearLayout>
 

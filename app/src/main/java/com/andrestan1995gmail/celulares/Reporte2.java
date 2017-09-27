@@ -19,7 +19,6 @@ public class Reporte2 extends AppCompatActivity {
         celular = Datos.obtener();
 
         for (int i = 0; i <celular.size(); i++){
-
             if(celular.get(i).getMarca().equalsIgnoreCase("samsung")&&
                     (Integer.parseInt(celular.get(i).getCapacidad())>=2&&Integer.parseInt(celular.get(i).getCapacidad())<=4)) {
                 TableRow fila = new TableRow(this);
@@ -28,24 +27,21 @@ public class Reporte2 extends AppCompatActivity {
                 TextView c3 = new TextView(this);
                 TextView c4 = new TextView(this);
                 TextView c5 = new TextView(this);
-
+                TextView c6 = new TextView(this);
 
                 c1.setText("" + (i + 1));
                 c2.setText(celular.get(i).getMarca());
                 c3.setText(celular.get(i).getCapacidad());
                 c4.setText(celular.get(i).getColor());
-                c5.setText(celular.get(i).getPrecio());
-
+                c5.setText(celular.get(i).getSo());
+                c6.setText(celular.get(i).getPrecio());
                 fila.addView(c1);
                 fila.addView(c2);
                 fila.addView(c3);
                 fila.addView(c4);
                 fila.addView(c5);
-
-
                 tabla.addView(fila);
             }
-
         }
     }
 }

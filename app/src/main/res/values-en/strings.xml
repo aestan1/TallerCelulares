@@ -18,4 +18,11 @@
     <string name="reporte4">REPORT 4</string>
     <string name="reporte5">REPORT 5</string>
     <string name="cantApple">Amount of black apple devices</string>
+    <string name="so">Operative Syst</string>
+    <string name="mensaje_error_1">you must enter the mark</string>
+    <string name="mensaje_error_2">you must enter the capacity</string>
+    <string name="mensaje_error_3">you must enter the color</string>
+    <string name="mensaje_error_4">you must enter the so</string>
+    <string name="mensaje_error_5">you must enter the price</string>
+    <string name="so2">So:</string>
 </resources>
