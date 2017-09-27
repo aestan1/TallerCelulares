@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Celulares</string>
+    <string name="Item2">Reports</string>
+    <string name="capacidad">Capacity:</string>
+    <string name="color">Color:</string>
+    <string name="crear">Create</string>
+    <string name="item1">Enter Cell</string>
+    <string name="limpiar">Clear</string>
+    <string name="listar">View all records</string>
+    <string name="marca">Brand:</string>
+    <string name="mensaje_Exitoso">Cell phone registered successfully</string>
+    <string name="numero">#</string>
+    <string name="precio">Price:</string>
+    <string name="promedio">Average price</string>
+    <string name="registroCelular">Register Cell</string>
+    <string name="reporte2">REPORT 2</string>
+    <string name="reporte4">REPORT 4</string>
+    <string name="reporte5">REPORT 5</string>
+</resources>

@@ -9,4 +9,23 @@
     <string name="limpiar">Limpiar</string>
     <string name="numero">#</string>
     <string name="promedio">Precio Promedio Nokia</string>
+
+    <array name="Opciones">
+        <item>@string/item1</item>
+        <item>@string/Item2</item>
+    </array>
+
+    <array name="Reportes">
+        <item>@string/listar</item>
+        <item>@string/reporte2</item>
+        <item>@string/reporte4</item>
+        <item>@string/reporte5</item>
+    </array>
+    <string name="item1">Ingresar Celular</string>
+    <string name="Item2">Reportes</string>
+    <string name="mensaje_Exitoso">Celular registrado exitosamente</string>
+    <string name="listar">VER TODOS LOS REGISTROS</string>
+    <string name="reporte2">REPORTE 2</string>
+    <string name="reporte4">REPORTE 4</string>
+    <string name="reporte5">REPORTE 5</string>
 </resources>
