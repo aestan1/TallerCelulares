@@ -7,14 +7,15 @@
     <string name="crear">Create</string>
     <string name="item1">Enter Cell</string>
     <string name="limpiar">Clear</string>
-    <string name="listar">View all records</string>
+    <string name="listar">VIEW ALL RECORDS</string>
     <string name="marca">Brand:</string>
     <string name="mensaje_Exitoso">Cell phone registered successfully</string>
     <string name="numero">#</string>
     <string name="precio">Price:</string>
-    <string name="promedio">Average price</string>
+    <string name="promedio">\"Average Price Nokia Devices\"</string>
     <string name="registroCelular">Register Cell</string>
     <string name="reporte2">REPORT 2</string>
     <string name="reporte4">REPORT 4</string>
     <string name="reporte5">REPORT 5</string>
+    <string name="cantApple">Amount of black apple devices</string>
 </resources>

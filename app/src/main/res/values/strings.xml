@@ -8,7 +8,7 @@
     <string name="crear">Crear</string>
     <string name="limpiar">Limpiar</string>
     <string name="numero">#</string>
-    <string name="promedio">Precio Promedio Nokia</string>
+    <string name="promedio">Precio Promedio Equipos Nokia</string>
 
     <array name="Opciones">
         <item>@string/item1</item>
@@ -28,4 +28,5 @@
     <string name="reporte2">REPORTE 2</string>
     <string name="reporte4">REPORTE 4</string>
     <string name="reporte5">REPORTE 5</string>
+    <string name="cantApple">Cantidad de equipos Apple negro</string>
 </resources>
