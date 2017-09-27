@@ -8,9 +8,9 @@ public class Celular {
     private String marca;
     private String capacidad;
     private String color;
-    private int precio;
+    private String precio;
 
-    public Celular(String marca, String capacidad, String color, int precio) {
+    public Celular(String marca, String capacidad, String color, String precio) {
         this.marca = marca;
         this.capacidad = capacidad;
         this.color = color;
@@ -41,11 +41,11 @@ public class Celular {
         this.color = color;
     }
 
-    public int getPrecio() {
+    public String getPrecio() {
         return precio;
     }
 
-    public void setPrecio(int precio) {
+    public void setPrecio(String precio) {
         this.precio = precio;
     }
 

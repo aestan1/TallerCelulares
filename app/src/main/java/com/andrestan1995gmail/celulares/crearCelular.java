@@ -25,13 +25,12 @@ public class crearCelular extends AppCompatActivity {
     }
 
     public void guardar(View view) {
-        String mar, col, cap;
-        int prec;
-        prec = Integer.parseInt(precio.getText().toString());
+        String mar, col, cap, prec;
+
         mar = marca.getText().toString();
         col = color.getText().toString();
         cap = capacidad.getText().toString();
-
+        prec = precio.getText().toString();
         Celular c = new Celular(mar, cap, col, prec);
         c.guardar();
         Toast.makeText(this, resources.getString(R.string.mensaje_Exitoso), Toast.LENGTH_SHORT).show();
