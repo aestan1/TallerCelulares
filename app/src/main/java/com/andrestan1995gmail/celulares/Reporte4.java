@@ -18,7 +18,7 @@ public class Reporte4 extends AppCompatActivity {
         celular = Datos.obtener();
 
         for (int i = 0; i <celular.size(); i++){
-            if(celular.get(i).getMarca().equalsIgnoreCase("apple")&&celular.get(i).getColor().equalsIgnoreCase("negro")){
+            if(celular.get(i).getMarca().equalsIgnoreCase("apple")&&(celular.get(i).getColor().equalsIgnoreCase("negro")||celular.get(i).getColor().equalsIgnoreCase("black"))){
                 cont=cont+1;
             }
         }

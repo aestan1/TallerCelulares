@@ -40,6 +40,7 @@ public class Reporte2 extends AppCompatActivity {
                 fila.addView(c3);
                 fila.addView(c4);
                 fila.addView(c5);
+                fila.addView(c6);
                 tabla.addView(fila);
             }
         }
